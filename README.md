@@ -41,6 +41,8 @@ Add the following section to your package.json file.
 
 -Run index.js within the VS Code Terminal by entering "node index.js".
 
+-Run tests by running "npm run test" in VS Code Terminal
+
 
 ## Usage
 
