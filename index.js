@@ -27,7 +27,6 @@ const promptquestions = [
 ];
 
 inquirer.prompt(promptquestions).then(res=>{
-    console.log(res);
     let shape;
     if(res.shape==="Circle"){
         shape=new Circle(res.shapecolor,res.shapetext,res.textcolor)
