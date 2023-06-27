@@ -32,11 +32,11 @@ Clone repository and open cloned folder in VS Code. Within the VS Terminal insta
 -Install [Jest](https://jestjs.io/docs/getting-started) by running "npm install --save-dev jest" in the Terminal.
 Add the following section to your package.json file.
 ```
-{
-  "scripts": {
-    "test": "jest"
-  }
-}
+,
+    "scripts": {
+      "test": "jest"
+    },
+
 ```
 
 -Run index.js within the VS Code Terminal by entering "node index.js".
