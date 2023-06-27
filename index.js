@@ -1,7 +1,11 @@
+// installs inquirer
 const inquirer = require("inquirer")
+// allows use of classes in other shapes.js file
 const {Circle,Triangle,Square} = require("./lib/shapes.js")
+// allows use of file system
 const fs = require("fs")
 
+// questions for inquirer prompt
 const promptquestions = [
     {
         type: "list",
@@ -26,6 +30,7 @@ const promptquestions = [
     }
 ];
 
+// inquirer function that prompts questions to user then runs function from pre-built classes then write a new file with selected parameters and properties
 inquirer.prompt(promptquestions).then(res=>{
     let shape;
     if(res.shape==="Circle"){
