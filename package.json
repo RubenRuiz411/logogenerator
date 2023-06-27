@@ -7,9 +7,6 @@
     "example": "examples",
     "lib": "lib"
   },
-  "scripts": {
-    "test": "jest"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
